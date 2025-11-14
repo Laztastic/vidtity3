@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap, Sparkles } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
+import vidtifyLogo from "@/assets/vidtify-logo.png";
 const Hero = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -27,7 +28,7 @@ const Hero = () => {
           
           {/* Main Heading */}
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-black leading-none">
-            <span className="gradient-text">Vidtify Design</span>
+            <img src={vidtifyLogo} alt="Vidtify Design" className="w-full max-w-4xl mx-auto drop-shadow-[0_0_30px_rgba(0,255,0,0.5)] animate-pulse-neon" />
           </h1>
           
           {/* Subheading */}
